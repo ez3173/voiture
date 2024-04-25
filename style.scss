@@ -8,9 +8,10 @@
 }
 .wrapper{
     width:80vw;
-    margin: 0 auto ;
+    margin: 0 auto;
 }
 header{
+    height: 20vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,10 +27,32 @@ header{
                 a{
                     text-decoration: none;
                     color:black;
-                    border-bottom:3px solid #0A8D4E;
+                    
                     font-family:'K2D', sans-serif;
                 }
+                
             }
+            li:nth-child(1){
+                a{
+                    border-bottom:3px solid #0A8D4E;
+                }
+            }
+        }
+    }
+}
+main{
+    section{
+        max-height: 80vh;
+        p{
+            font-family: "K2D",sans-serif;
+            font-size:23vw;
+            opacity: 16%;
+        }
+        img{
+            width: 100%;
+            position: relative;
+            top: -15vh;
+            z-index: 2;   
         }
     }
 }

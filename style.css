@@ -11,6 +11,7 @@
 }
 
 header {
+  height: 20vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -30,8 +31,25 @@ header nav ul li {
 header nav ul li a {
   text-decoration: none;
   color: black;
-  border-bottom: 3px solid #0A8D4E;
   font-family: "K2D", sans-serif;
+}
+header nav ul li:nth-child(1) a {
+  border-bottom: 3px solid #0A8D4E;
+}
+
+main section {
+  max-height: 80vh;
+}
+main section p {
+  font-family: "K2D", sans-serif;
+  font-size: 23vw;
+  opacity: 16%;
+}
+main section img {
+  width: 100%;
+  position: relative;
+  top: -15vh;
+  z-index: 2;
 }
 
 /*# sourceMappingURL=style.css.map */
