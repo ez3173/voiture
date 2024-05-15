@@ -40,19 +40,233 @@ header{
         }
     }
 }
-main{
-    section{
-        max-height: 80vh;
-        p{
+main{/*mettre p en fond avec im devant*/
+ 
+    
+    
+    
+    
+    
+    
+    #home{
+       
+        
+        h1{
+            position: absolute;
             font-family: "K2D",sans-serif;
-            font-size:23vw;
+            font-size: 21vw;
+            top: 5vh;
             opacity: 16%;
         }
         img{
-            width: 100%;
+            width: 80vw;
             position: relative;
-            top: -15vh;
+            top: 5vh;
             z-index: 2;   
         }
+    }
+    #new{
+        
+        h1{
+            font-family: "K2D",sans-serif;
+            font-size: 5vw;
+        }
+        nav{
+           
+            ul{
+                display: flex;
+                gap: 5vw;
+                li{
+                    
+                    list-style: none;
+                    
+                    a{
+                        text-decoration: none;
+                        color: black;
+                        font-family:'K2D', sans-serif;
+                    }
+                   
+                    
+                }
+                li:nth-child(1){
+                    a{
+                        border-bottom:3px solid #0A8D4E;
+                    }
+                }
+            }
+        }
+        .paragraph{
+            display: flex;
+            p{
+                
+                font-family: "K2D",sans-serif;
+                width: 30vw;
+                margin-top: 3vh;
+                margin-left: 20vw;
+            }
+            h2{
+                margin-left: 20vw;
+                font-family: "K2D",sans-serif;
+                font-size: 7vw;  
+                opacity:44%; 
+            }
+        }
+        img{
+            width: 80vw;
+            
+        }
+        a{
+            font-family: "K2D",sans-serif;
+        }
+    }
+    .technology{
+        
+        h1{
+            font-family: "K2D",sans-serif;
+            font-size: 5vw;
+            margin-left: 45vw;
+        }
+        nav{
+           margin-left: 31vw;
+
+            ul{
+            
+                display: flex;
+                gap:5vw;
+                
+                li{
+                    flex: 1;
+                    list-style: none;
+                    
+                    a{
+                        text-decoration: none;
+                        color: black;
+                        font-family:'K2D', sans-serif;
+                    }
+                   
+                    
+                }
+                li:nth-child(1){
+                    a{
+                        border-bottom:3px solid #0A8D4E;
+                    }
+                }
+            }
+            
+        }
+        h2{
+                
+                font-family: "K2D",sans-serif;
+                font-size: 7vw;  
+                opacity:44%; 
+         }
+        .paragraphe{
+            display: flex;
+            p{
+                
+                font-family: "K2D",sans-serif;
+                width: 30vw;
+                margin-top: 8vh;
+                
+            }
+            img{
+                margin-left: 2vw;
+            }
+         }
+        p{
+            font-family: "K2D",sans-serif;
+        }
+    
+    }
+    .Collection{
+        .titre{
+            display: flex;
+            justify-content: center;
+        }
+        h1{
+            font-family: "K2D",sans-serif;
+            font-size: 5vw;
+            
+        }
+        .voiture{
+            height: 10vh;
+            display: flex;
+            align-items: end;
+          
+                h2{
+                    font-family: "K2D",sans-serif;
+                    font-size: 3vw;
+                    margin-left: 28vw;
+
+                }
+                h3{
+                    font-family: "K2D",sans-serif;
+                    font-size: 7vw;
+                    opacity: 44%;
+                    margin-left: 16vw;
+                }
+             
+        }
+        .carou{
+            display: flex;
+            align-items: center;
+           
+        }
+        .sliders{
+            display: flex;
+            justify-content: center;
+            p{
+                font-family: "K2D",sans-serif;
+                font-size: 1vw;
+            }
+        }
+    }
+    .find-us{
+        h1{
+            font-family: "K2D",sans-serif;
+            font-size: 20vw;
+            top: 5vh;
+            opacity: 16%;
+
+        }
+
+    }
+ 
+}
+footer{
+    .contact{
+        height: 20vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: black;
+        p{
+            font-family: "K2D",sans-serif;
+            color:#E7D10E ;
+            
+        }
+    }
+    .social{
+        width: 80vw;
+        margin: 0 auto;
+        margin-top: 5vh;
+        height: 20vh;
+        display: flex;
+        justify-content: space-between;
+        li{
+            display: flex;
+            gap: 1vw;
+            flex-direction: column;
+            list-style: none;
+            a{
+                text-decoration: none;
+                color: black;
+            }
+        }
+      
+    }
+    .copyright{
+        display: flex;
+        justify-content: center;
     }
 }
